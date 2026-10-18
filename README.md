@@ -132,7 +132,7 @@ sales-etl-pipeline/
 
 ### 1. Clone and Initialize the Stack
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/sales-etl-pipeline.git
+git clone https://github.com/shamas92/sales-etl-pipeline.git
 cd sales-etl-pipeline
 mkdir -p logs && chmod -R 777 logs
 docker compose up -d
@@ -195,3 +195,4 @@ To destroy all containers, networks, and database volumes completely:
 ```bash
 docker compose down -v
 ```
+
